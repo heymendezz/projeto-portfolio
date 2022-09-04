@@ -1,0 +1,34 @@
+body{
+	background: #262a2b;
+	text-align: center;
+}
+
+.introducao{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nome{
+  	font-size: 35px; 
+  	padding: 5px;
+  	display: inline;
+	margin-right: 0px;
+	text-align: center;
+	padding: 100px;
+}
+
+.bio{
+  	font-size: 20px;
+	padding: 1px;
+	display: inline-block;
+}
+
+.perfil{
+  	border-radius: 250px;
+  	width: 300px;
+  	padding: 7px;
+	text-align: center;
+	display: inline-block;
+	
+	
+}
