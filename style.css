@@ -5,30 +5,30 @@ body{
 
 .introducao{
   color: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nome{
   	font-size: 35px; 
-  	padding: 5px;
-  	display: inline;
-	margin-right: 0px;
+  	padding: 0px;
+	margin-right: 0x;
 	text-align: center;
-	padding: 100px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-shadow: 1px 1px 1px #000000;
 }
 
 .bio{
-  	font-size: 20px;
-	padding: 1px;
-	display: inline-block;
+  	font-size: 18px;
+	display: block;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: 600;
+	color: orange;
+	text-shadow: 1px 1px 5px #000000;
 }
 
 .perfil{
   	border-radius: 250px;
-  	width: 300px;
+  	width: 250px;
   	padding: 7px;
 	text-align: center;
 	display: inline-block;
-	
-	
 }
