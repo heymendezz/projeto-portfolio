@@ -1,2 +1,2 @@
-# Projeto de portifolio 
-> Projeto de portifolio para estudos.
+# Projeto de portfolio 
+> Projeto de portfolio para estudos.
