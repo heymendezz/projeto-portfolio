@@ -4,7 +4,6 @@
 
 html,
 body {
-  margin: 5%;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   line-height: 10px;
 }
@@ -48,8 +47,8 @@ h1 {
 .container,
 .front,
 .back {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 230px;
   border-radius: 12px;
   background-color: white;
 }
@@ -66,8 +65,8 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 230px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
