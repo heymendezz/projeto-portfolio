@@ -2,5 +2,5 @@
 
 > Meu proprio portfolio utilizado para estudo e para apresentar meu projetos finalizados e os em andamento.
 
-<img src="https://i.postimg.cc/tCB76sq0/opera-VV5-Cgsx-Nz-F.gif">
+<img src="https://imgur.com/wC0Y0Bf](https://imgur.com/a/uj3JpHt)](https://imgur.com/a/uj3JpHt)" width="250" height="250"/>
 
