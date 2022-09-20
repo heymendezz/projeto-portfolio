@@ -52,5 +52,9 @@ img {
 	width: 90%;
   }
 
-
-
+  .menu{
+	font-family: 'Bebas Neue';
+	font-size: 40px;
+	color: white;
+    padding: 15px;
+	}
