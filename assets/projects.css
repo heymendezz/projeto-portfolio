@@ -11,3 +11,14 @@
     font-style: italic;
     color: #33CCFF;
 }
+
+@media screen and (min-width: 1024px){
+    .projects{
+        display: flex;
+        justify-content: center;
+    }
+
+    .project_card{
+        padding: 40px;
+    }
+}

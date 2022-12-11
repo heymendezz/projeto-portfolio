@@ -4,7 +4,7 @@
     display: flex;
     padding: 20px;
     justify-content: space-between;
-    border-radius: 20px;
+    border-radius: 20px;    
 }
 
 .avatar{
@@ -19,4 +19,17 @@
 
 .profile__content{
     margin-left: 4%;
+}
+
+@media screen and (min-width: 1024px){
+    .profile{
+        width: 400px;
+        justify-content: space-evenly;
+        text-align: center;
+        margin: auto;
+    }
+
+    .area{
+        font-size: 15px;
+    }
 }
