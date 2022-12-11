@@ -1,0 +1,23 @@
+.profile{
+    margin: 10px;
+    background-color: #CC6600;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.avatar{
+    width: 140px;
+    border-radius: 100px;
+}
+
+.name, .area{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.profile__content{
+    margin-left: 4%;
+}
