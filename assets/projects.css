@@ -12,10 +12,16 @@
     color: #33CCFF;
 }
 
+.projects{
+    display: grid;
+    grid-template-columns: repeat(1);
+    justify-content: center;
+}
+
 @media screen and (min-width: 1024px){
     .projects{
-        display: flex;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 25%);
     }
 
     .project_card{
