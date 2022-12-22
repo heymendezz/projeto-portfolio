@@ -4,7 +4,7 @@
 
 .projects_title{
     font-size: 25px;
-    color: var(--text1);
+    color: var(--title);
     transition: 15s;
 }
 
