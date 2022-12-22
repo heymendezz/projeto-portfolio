@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Gabriel Mendez</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="assets/style.css">
 	<link rel="stylesheet" href="/assets/reset.css">
 	<link href="https://fonts.google.com/specimen/Fira+Sans" rel="stylesheet">
@@ -44,44 +45,58 @@
 
 			</div>
 
-		</section>
+		</section><br>
+
+		<section>
+
+				<button id="about" class="profile-menu">About Me</button>
+				<button id="projects" class="profile-menu">Projects</button>
+				<button id="experience" class="profile-menu">Experience</button>
+
+		</section><br>
 
 	</header>
 
 	<body>
-		<section class="about">
-			<h2 class="about_title">About Me</h2>
-			<p class="about_text">I am a computer science student, I've always been passionate about technology. Ever since I was little, I used to adventure myself into hardware and website creations.</p>
-			<p class="about_text">Now, with a more mature head, but intact passion, I try to deepen my knowledge and work with what I've always loved.</p><br>
-		</section>
-		<section>
-			<h2 class="projects_title">Projects</h2>
-			<div class="projects">
-				<div class="project_card">
-					<p class="project_name">Personal Portfolio</p>
-					<a href="https://github.com/heymendezz/projeto-portfolio"><img src="img/projeto_portfolio.png" alt="Portfolio Pessoal" class="project_img"></a>
-					<p>My own portfolio used for study and to <br>show my finished and ongoing projects.</p><br>
-				</div>
-				<div class="project_card">
-					<p class="project_name">Project Comunidade Metaverso</p>
-					<a href="https://github.com/heymendezz/projeto-comunidade_metaverso"><img src="img/projeto_metaverso.png" alt="Projeto Comunidade Metaverso" class="project_img"></a>
-					<p>A website for vr technology presentation.</p><br>
-				</div>
-				<div class="project_card">
-					<p class="project_name">Project Piano</p>
-					<a href="https://github.com/heymendezz/projeto-piano"><img src="img/projeto_piano.png" alt="Projeto Piano" class="project_img"></a>
-					<p>A piano for studying javascript.</p><br>
-				</div>
+		 <section id="display">
+
+			<div id="aboutme">
+				<h2 class="about_title">About Me</h2>
+				<p class="about_text">I am a computer science student, I've always been passionate about technology. Ever since I was little, I used to adventure myself into hardware and website creations.</p>
+				<p class="about_text">Now, with a more mature head, but intact passion, I try to deepen my knowledge and work with what I've always loved.</p><br>
 			</div>
-		</section>
-		<section class="experience">
-			<h2 class="experience_title">Experience</h2>
-			<div class="">
+
+			<div id="projects-list">
+				<h2 class="projects_title">Projects</h2>
+				<div class="projects">
+					<div class="project_card">
+						<p class="project_name">Personal Portfolio</p>
+						<a href="https://github.com/heymendezz/projeto-portfolio"><img src="img/projeto_portfolio.png" alt="Portfolio Pessoal" class="project_img"></a>
+						<p>My own portfolio used for study and to <br>show my finished and ongoing projects.</p><br>
+					</div>
+					<div class="project_card">
+						<p class="project_name">Project Comunidade Metaverso</p>
+						<a href="https://github.com/heymendezz/projeto-comunidade_metaverso"><img src="img/projeto_metaverso.png" alt="Projeto Comunidade Metaverso" class="project_img"></a>
+						<p>A website for vr technology presentation.</p><br>
+					</div>
+					<div class="project_card">
+						<p class="project_name">Project Piano</p>
+						<a href="https://github.com/heymendezz/projeto-piano"><img src="img/projeto_piano.png" alt="Projeto Piano" class="project_img"></a>
+						<p>A piano for studying javascript.</p><br>
+						</div>
+					</div>
+			</div>
+
+			<div id="experience-list">
+				<h2 class="experience_title">Experience</h2>
 				<p class="experience_name">LM Informatica - Technical Support</p>
 				<p>July 2022 - Currently</p>
 				<img src="/img/icons/icon-java.svg" alt="Java" class="icons">
 				<img src="/img/icons/icon-postgrees.svg" alt="Postgree" class="icons"><br>
 			</div>
-		</section><br>
+			
+		</section>
+		
+		<script src="/assets/js/buttons.js"></script>
 	</body>
 </html>

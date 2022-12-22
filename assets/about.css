@@ -1,8 +1,9 @@
 .about_title{
     font-size: 20px;
-    color: #CC6600;
+    color: var(--text1);
 }
 
 .about_text{
+    color: var(--text1);
     font-size: 15px;
 }

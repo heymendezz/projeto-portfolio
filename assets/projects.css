@@ -1,6 +1,11 @@
+.project{
+    transition: 5s;
+}
+
 .projects_title{
     font-size: 25px;
-    color: #CC6600;
+    color: var(--text1);
+    transition: 15s;
 }
 
 .project_img{
@@ -9,10 +14,11 @@
 
 .project_name{
     font-style: italic;
-    color: #33CCFF;
+    color: var(--text1);
 }
 
 .projects{
+    color: var(--text1);
     display: grid;
     grid-template-columns: repeat(1);
     justify-content: center;

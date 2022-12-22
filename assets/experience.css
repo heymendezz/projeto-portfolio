@@ -1,9 +1,9 @@
 .experience_title{
     font-size: 25px;
-    color: #CC6600;
+    color: var(--text1);
 }
 
 .experience_name{
     font-style: italic;
-    color: #33CCFF;
+    color: var(--text1);
 }
