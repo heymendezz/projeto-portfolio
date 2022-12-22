@@ -1,24 +1,38 @@
 .profile{
-    margin: 10px;
-    background-color: #CC6600;
+    padding-top: 20px;
+}
+
+.profile-card{
+    background-color: #333333;
     display: flex;
     padding: 20px;
     justify-content: space-between;
-    border-radius: 20px;    
+    border-radius: 20px;
+    width: 400px;
 }
 
 .avatar{
-    width: 140px;
-    border-radius: 100px;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
 }
 
 .name, .area{
-    color: #ffffff;
+    color: var(--text2);
     font-size: 20px;
+}
+
+.area, .icon, .languages{
+    padding-top: 7px;
 }
 
 .profile__content{
     margin-left: 4%;
+}
+
+.icons{
+    width: 42px;
+    height: 42px;
 }
 
 @media screen and (min-width: 1024px){
@@ -33,3 +47,4 @@
         font-size: 15px;
     }
 }
+

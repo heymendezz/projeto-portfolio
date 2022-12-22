@@ -5,11 +5,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@300&display=swap');
 
 
+:root{
+
+	--text: #393E46
+	--text2: #ffffff
+}
+
 body{
-	background: #282b2c;
+	background-color: #74EBD5;
+	background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+
+
+
 	text-align: center;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
-	color: #ffffff;
+	color: #EEEEEE;
 }
 
