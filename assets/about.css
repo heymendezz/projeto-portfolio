@@ -1,9 +1,19 @@
 .about_title{
     font-size: 20px;
     color: var(--title);
+    font-family: var(--font1);
 }
 
 .about_text{
-    color: var(--text1);
+    color: var(--text);
     font-size: 15px;
+    font-family: var(--font);
+}
+
+
+@media screen and (max-width: 1440px){
+    .about_text{
+        font-size: 15px;
+        padding: 20px;
+    }
 }
