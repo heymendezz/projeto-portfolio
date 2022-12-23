@@ -1,9 +1,16 @@
 .experience_title{
     font-size: 25px;
+    font-family: var(--font1);
     color: var(--title);
+    padding-bottom: 20px;
 }
 
 .experience_name{
-    font-style: italic;
-    color: var(--text1);
+    font-family: var(--font1);
+    color: var(--text);
+}
+
+.experience_text{
+    font-family: var(--font);
+    color: var(--text);
 }
