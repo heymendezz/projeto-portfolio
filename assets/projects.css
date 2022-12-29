@@ -7,6 +7,8 @@
 
 .project-img{
     width: 370px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .project-name{
