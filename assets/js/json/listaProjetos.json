@@ -1,0 +1,32 @@
+[
+    {
+    "nome": "Portfolio Pessoal",
+    "alt": "Portfolio Pessoal",
+    "descricao": "Meu portfolio para falar um pouco sobre mim e apresentar projetos e experiencias minhas.",
+    "imagem": "/assets/img/portfolio"
+  },
+  {
+    "nome": "Projeto Comunidade Metaverso",
+    "alt": "Projeto Comunidade Metaverso",
+    "descricao": "Um site de comunidade de VR / AR",
+    "imagem": "/assets/img/metaverso"
+  },
+  {
+    "nome": "Projeto Piano",
+    "alt": "Projeto Piano",
+    "descricao": "Um piano online com as teclas basicas.",
+    "imagem": "/assets/img/Piano"
+  },
+  {
+    "nome": "Projeto Numero Secreto",
+    "alt": "Projeto Numero Secreto",
+    "descricao": "Um Jogo por comando de voz que traz o desafio de advinhar o numero secreto.",
+    "imagem": "/assets/img/NumeroSecreto.png"
+  },
+  {
+    "nome": "Projeto FakeStore",
+    "alt": "Projeto Fake Store",
+    "descricao": "Um E-Commerce fictício",
+    "imagem": "/assets/img/fakestore.png"
+  }
+]
