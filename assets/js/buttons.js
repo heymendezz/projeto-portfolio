@@ -8,7 +8,7 @@ $(projects).hide();
 $(certificados).hide();
 
 $("#about").click(function () {
-    $(aboutme).show(1000);
+    $(aboutme).show(50);
     $(experience).hide();
     $(projects).hide();
     $(certificados).hide();
@@ -16,7 +16,7 @@ $("#about").click(function () {
 
 $("#experience").click(function () {
     $(aboutme).hide();
-    $(experience).show(1000);
+    $(experience).show(50);
     $(projects).hide();
     $(certificados).hide();
 });
@@ -24,6 +24,13 @@ $("#experience").click(function () {
 $("#projects").click(function () {
     $(aboutme).hide();
     $(experience).hide();
-    $(projects).show(1000);
+    $(projects).show(50);
     $(certificados).hide();
+});
+
+$("#certificado").click(function () {
+    $(aboutme).hide();
+    $(experience).hide();
+    $(projects).hide();
+    $(certificados).show(50);
 });

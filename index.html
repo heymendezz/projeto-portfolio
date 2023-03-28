@@ -10,122 +10,137 @@
 	<link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
-<header>
-
-	<section class="profile">
-
-		<div class="profile-card">
-			<div>
-				<img src="/assets/img/profile.jpg" class="avatar">
-			</div>
-			<div>
-				<h1 class="name">Gabriel Mendez</h1>
-				<h2 class="area">Desenvolvedor Web</h2>
-
-				<div class="icon">
-					<a href="https://github.com/heymendezz"><img src="/assets/img/icons/icon-github.svg" alt="GITHUB" class="icons"></a>
-					<a href="https://linkedin.com/in/heymendezz"><img src="/assets/img/icons/icon-linkedin.svg" alt="LINKEDIN" class="icons"></a>
-					<a href="https://instagram.com/heymendezz"><img src="/assets/img/icons/icon-instagram.svg" alt="INSTAGRAM" class="icons"></a>
-				</div>
-			</div>
-		</div>
-	</section></br>
-
-	<section class="profile-menu">
-		<button id="about" class="profile-menu-button">Sobre mim</button>
-		<button id="projects" class="profile-menu-button">Projetos</button>
-		<button id="experience" class="profile-menu-button">Experiencia</button>
-	</section><br>
-
-</header>
-
 <body>
-	<div id="aboutme">
-		<h2 id="title">Sobre Mim</h2>
-		<p id="text">Sou estudante de ciência da computação, sempre fui apaixonado por tecnologia. Desde pequeno me aventurava com hardware e sites.</p>
-		<p id="text">Agora, com a cabeça mais madura, mas com a paixão intacta, procuro aprofundar meusconhecimentos e trabalhar com o que sempre amei.</p>
-		<p id="text"> Atualmente estou cursando Ciencia da Computação na Universidade Veiga de Almeida.</p><br>
+	
 
-		<h2 id="title">Linguagens</h2>
+	<section id="container">
 
-		<div class="icon">
-			<a><img src="/assets/img/icons/icon-html.png" alt="HTML" class="icons"></a>
-			<a><img src=" /assets/img/icons/icon-css.png" alt="CSS" class="icons"></a>
-			<a><img src=" /assets/img/icons/icon-javascript.svg" alt="JavaScript" class="icons"></a>
-			<a><img src="/assets/img/icons/icon-react.png" alt="React" class="icons"></a>
-		</div>
-	</div>
+		<nav id="nav-menu">
+			<h1 class="menu-title">Gabriel Mendez</h1>
+			<button id="about" class="menu-button">Sobre mim</button>
+			<button id="projects" class="menu-button">Projetos</button>
+			<button id="experience" class="menu-button">Experiencia</button>
+			<button id="certificado" class="menu-button">Certificados</button>
+		</nav>
 
-	<div id="projects-list">
-		<h2 id="title">Projetos</h2>
+		<div id="content">
+			
+			<section id="aboutme">
+				<h2 id="title">Sobre Mim</h2>
+				<p id="text">Sou estudante de ciência da computação, sempre fui apaixonado por tecnologia. Desde pequeno me aventurava com hardware e sites.</p>
+				<p id="text">Agora, com a cabeça mais madura, mas com a paixão intacta, procuro aprofundar meusconhecimentos e trabalhar com o que sempre amei.</p>
+				<p id="text"> Atualmente estou cursando Ciencia da Computação na Universidade Veiga de Almeida.</p><br>
+		
+				<h2 id="title">Tecnologias</h2>
+		
+				<div class="icon">
+					<a><img src="/assets/img/icons/icon-html.png" alt="HTML" class="icons"></a>
+					<a><img src=" /assets/img/icons/icon-css.png" alt="CSS" class="icons"></a>
+					<a><img src=" /assets/img/icons/icon-javascript.svg" alt="JavaScript" class="icons"></a>
+					<a><img src="/assets/img/icons/icon-react.png" alt="React" class="icons"></a>
+				</div>
 
-		<div class="projects">
-			<div class="project-card">
-				<p id="name">Portfolio Pessoal</p>
-				<a href="https://mendezz.net"><img src="/assets/img/portfolio.png" alt="Portfolio Pessoal" class="project-img"></a>
-				<p>Meu portfolio para falar um pouco sobre mim e apresentar projetos e experiencias minhas.</p><br>
-			</div>
+				<h2 id="title">Curriculo</h2>
 
-			<div class="project-card">
-				<p id="name">Projeto "Comunidade Metaverso"</p>
-				<a href="https://github.com/heymendezz/projeto-comunidade_metaverso"><img src="/assets/img/metaverso.png" alt="Projeto Comunidade Metaverso" class="project-img"></a>
-				<p>Um site de comunidade de VR / AR</p><br>
-			</div>
+				<div id="curriculo">
+					<img src="/assets/img/icons/icon-pdf.png" alt="React" class="icons">
+					<a href="/assets/curriculo_gabriel_mendez_23.pdf"> Curriculo em PDF</a>
+				</div>	
+			</section>
 
-			<div class="project-card">
-				<p id="name">Projeto Piano</p>
-				<a href="https://mendezz.net/pages/projeto-piano.html"><img src="/assets/img/Piano.png" alt="Projeto Piano" class="project-img"></a>
-				<p>Um piano online com as teclas basicas.</p><br>
-			</div>
 
-			<div class="project-card">
-				<p id="name">Projeto Numero Secreto</p>
-				<a href="https://mendezz.net/pages/projeto-numero-secreto.html"><img src="/assets/img/NumeroSecreto.png" alt="Projeto Numero Secreto" class="project-img"></a>
-				<p>Um Jogo por comando de voz que traz o desafio de advinhar o numero secreto.</p><br>
-			</div>
+			<section id="projects-list">
+				<h2 id="title">Projetos</h2>
+		
+				<div class="projects">
+					<div class="project-card">
+						<p id="name">Portfolio Pessoal</p>
+						<a href="https://mendezz.net"><img src="/assets/img/portfolio.png" alt="Portfolio Pessoal" class="project-img"></a>
+						<p>Meu portfolio para falar um pouco sobre mim e apresentar projetos e experiencias minhas.</p><br>
+					</div>
+		
+					<div class="project-card">
+						<p id="name">Projeto "Comunidade Metaverso"</p>
+						<a href="https://github.com/heymendezz/projeto-comunidade_metaverso"><img src="/assets/img/metaverso.png" alt="Projeto Comunidade Metaverso" class="project-img"></a> 
+						<p>Um site de comunidade de VR / AR</p><br>
+					</div>
+		
+					<div class="project-card">
+						<p id="name">Projeto Piano</p>
+						<a href="https://mendezz.net/pages/projeto-piano.html"><img src="/assets/img/Piano.png" alt="Projeto Piano" class="project-img"></a>
+						<p>Um piano online com as teclas basicas.</p><br>
+					</div>
+		
+					<div class="project-card">
+						<p id="name">Projeto Numero Secreto</p>
+						<a href="https://mendezz.net/pages/projeto-numero-secreto.html"><img src="/assets/img/NumeroSecreto.png" alt="Projeto Numero Secreto" class="project-img"></a>
+						<p>Um Jogo por comando de voz que traz o desafio de advinhar o numero secreto.</p><br>
+					</div>
+		
+					<div class="project-card">
+						<p id="name">Projeto FakeStore</p>
+						<a href="https://mendezz.net/pages/projeto-fakestore.html"><img src="/assets/img/fakestore.png" alt="Projeto FakeStore" class="project-img"></a>
+						<p>Um E-Commerce fictício</p><br>
+					</div>
+				</div>
+		
+	</section>
 
-			<div class="project-card">
-				<p id="name">Projeto FakeStore</p>
-				<a href="https://mendezz.net/pages/projeto-fakestore.html"><img src="/assets/img/fakestore.png" alt="Projeto FakeStore" class="project-img"></a>
-				<p>Um E-Commerce fictício</p><br>
-			</div>
-		</div>
-
-	</div>
-
-	<div id="experience-list">
+	<section id="experience-list">
 		<h2 id="title">Experiencia</h2>
-
+		
 		<div class="experiences">
 			<div>
-				<p id="name">LM Informatica - Suporte Tecnico</p>
-				<p id="text">Julho 2022 - Atualmente</p>
-				<img src="/assets/img/icons/icon-java.svg" alt="Java" class="icons">
-				<img src="/assets/img/icons/icon-postgrees.svg" alt="Postgree" class="icons"><br>
-			</div>
-			<div>
-				<p id="name">Verdun Descartaveis - Vendedor / Caixa</p>
-				<p id="text">Agosto 2021 - Julho 2022</p>
-			</div>
+			<p id="name">LM Informatica - Suporte Tecnico</p>
+			<p id="text">Julho 2022 - Atualmente</p>
+			<img src="/assets/img/icons/icon-java.svg" alt="Java" class="icons">
+			<img src="/assets/img/icons/icon-postgrees.svg" alt="Postgree" class="icons"><br>
 		</div>
-	</div>
 
-
-	<div id="certificados">
-		<h2 id="title">Certificados</h2>
-		<div class="projects">
-
-			<div class="project-card">
-				<p class="project-name">Formação - HTML e CSS (Alura)</p>
-				<a href="https://cursos.alura.com.br/degree/certificate/60713eee-11d6-460a-ac05-ff7619616fe2"><img src="/assets/img/certificados/html_css_alura.png" alt="Portfolio Pessoal" class="project-img"></a>
-			</div>
-
-			<div class="project-card">
-				<p class="project-name">Formação - Desenvolva aplicações Web com JavaScript </p>
-				<a href="https://cursos.alura.com.br/degree/certificate/b332af25-51e5-434d-a2eb-df714ddb1e00"><img src="/assets/img/certificados/js_alura.png" alt="Projeto Comunidade Metaverso" class="project-img"></a>
-			</div>
+		<div>
+			<p id="name">Verdun Descartaveis - Vendedor / Caixa</p>
+			<p id="text">Agosto 2021 - Julho 2022</p>
 		</div>
-	</div>
+		</div>
+	</section>
+
+
+			<section id="certificados">
+			<div >
+				<h2 id="title">Certificados</h2>
+				<div class="projects">
+		
+					<div class="project-card">
+						<p class="project-name">Formação - HTML e CSS (Alura)</p>
+						<a href="https://cursos.alura.com.br/degree/certificate/60713eee-11d6-460a-ac05-ff7619616fe2"><img src="/assets/img/certificados/html_css_alura.png" alt="Portfolio Pessoal" class="project-img"></a>
+					</div>
+		
+					<div class="project-card">
+						<p class="project-name">Formação - Desenvolva aplicações Web com JavaScript </p>
+						<a href="https://cursos.alura.com.br/degree/certificate/b332af25-51e5-434d-a2eb-df714ddb1e00"><img src="/assets/img/certificados/js_alura.png" alt="Projeto Comunidade Metaverso" class="project-img"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+			
+			<section id="profile">
+				<img src="/assets/img/profile.jpg" class="avatar">
+				<h2 class="area">Desenvolvedor Web</h2>
+				<div id="links">
+					<a href="https://github.com/heymendezz"><img src="/assets/img/icons/icon-github.svg" alt="GITHUB" class="icons">Github</a>
+					<a href="https://linkedin.com/in/heymendezz"><img src="/assets/img/icons/icon-linkedin.svg" alt="LINKEDIN" class="icons">Linkedin</a>
+				</div>
+			</section>
+
+
+			<!--
+				Adicionar modal para Certificados e para projetos
+			-->
+
+			
 	</section>
 
 	<script src="/assets/js/buttons.js"></script>
