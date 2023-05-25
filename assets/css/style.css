@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Inter:wght@100&display=swap');
 
 /* Icons by https://icons8.com.br/ */
 
 :root{
     /* Laranja #E87400 */
 	--font: 'Inter', sans-serif;
-	--font-alternative: 'Montserrat', sans-serif;
+	--font-alternative: 'Cabin', sans-serif;
 }
 
 /* Geral */
@@ -34,6 +34,7 @@ body{
 }
 
 .menu-button{
+    font-family: var(--font);
     color: #ffffff;
     text-decoration: none;
     padding: 10px;
@@ -43,6 +44,8 @@ body{
 }
 
 .menu-button:hover{
+    font-family: var(--font);
+    font-weight: 900;
     color: #E87400;
     text-decoration: none;
     font-weight: 600;
@@ -73,6 +76,7 @@ body{
 .text{
     width: 60%;
     font-family: var(--font);
+    font-weight: 500;
 }
 
 #profile-avatar{
@@ -126,6 +130,7 @@ body{
 
 #project-cards{
     display: flex;
+    font-family: var(--font);
 }
 
 .project-card{
@@ -158,14 +163,7 @@ body{
 }
 
 
-
-
-
-/*
-
-
-
-
+/* mobile 
 @media screen and (max-width: 1440px){
     #text{
         font-size: 15px;
