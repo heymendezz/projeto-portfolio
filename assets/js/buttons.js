@@ -1,36 +1,35 @@
-let projects = "#projects-list"
-let experience = "#experience-list"
-let aboutme = "#aboutme"
-let certificados = "#certificados"
+about(); // Faz o site iniciar no about
 
-$(experience).hide();
-$(projects).hide();
-$(certificados).hide();
+function about(){ // Ao clicar botao sobre
+    var element = document.getElementById("about");
+    element.style.display = "";
+    var element = document.getElementById("languages");
+    element.style.display = "";
+    var element = document.getElementById("projects");
+    element.style.display = "none";
+    var element = document.getElementById("experience");
+    element.style.display = "none";
+}
 
-$("#about").click(function () {
-    $(aboutme).show(50);
-    $(experience).hide();
-    $(projects).hide();
-    $(certificados).hide();
-});
+function projects(){ // Ao clicar botao projetos
+    var element = document.getElementById("about");
+    element.style.display = "none";
+    var element = document.getElementById("languages");
+    element.style.display = "none";
+    var element = document.getElementById("projects");
+    element.style.display = "";
+    var element = document.getElementById("experience");
+    element.style.display = "none";
+}
 
-$("#experience").click(function () {
-    $(aboutme).hide();
-    $(experience).show(50);
-    $(projects).hide();
-    $(certificados).hide();
-});
+function experience(){ // Ao clicar botao experiencias
+    var element = document.getElementById("about");
+    element.style.display = "none";
+    var element = document.getElementById("languages");
+    element.style.display = "none";
+    var element = document.getElementById("projects");
+    element.style.display = "none";
+    var element = document.getElementById("experience");
+    element.style.display = "";
+}
 
-$("#projects").click(function () {
-    $(aboutme).hide();
-    $(experience).hide();
-    $(projects).show(50);
-    $(certificados).hide();
-});
-
-$("#certificado").click(function () {
-    $(aboutme).hide();
-    $(experience).hide();
-    $(projects).hide();
-    $(certificados).show(50);
-});
