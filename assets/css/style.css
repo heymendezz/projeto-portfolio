@@ -147,20 +147,30 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 20px;
 }
 
 .project-name{
-    font-weight: 600;
-    margin-top: 20px;
+    font-family: var(--font-alternative);
+    color: var(--orange);
+    font-weight: 300;
 }
 
 .project-img{
-    width: 500px;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    width: 400px;
+    border-radius: 15px;
+    margin-top: 15px;
 }
 
+.project-text{
+    width: 390px;
+    font-family: var(--font);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 300;
+}
 
 #experience{
     margin-top: 80px;
