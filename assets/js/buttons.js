@@ -3,6 +3,8 @@ about(); // Faz o site iniciar no about
 function about(){ // Ao clicar botao sobre
     var element = document.getElementById("about");
     element.style.display = "";
+    var element = document.getElementById("social-mobile");
+    element.style.display = "";
     var element = document.getElementById("languages");
     element.style.display = "";
     var element = document.getElementById("projects");
@@ -14,6 +16,8 @@ function about(){ // Ao clicar botao sobre
 function projects(){ // Ao clicar botao projetos
     var element = document.getElementById("about");
     element.style.display = "none";
+    var element = document.getElementById("social-mobile");
+    element.style.display = "none";
     var element = document.getElementById("languages");
     element.style.display = "none";
     var element = document.getElementById("projects");
@@ -24,6 +28,8 @@ function projects(){ // Ao clicar botao projetos
 
 function experience(){ // Ao clicar botao experiencias
     var element = document.getElementById("about");
+    element.style.display = "none";
+    var element = document.getElementById("social-mobile");
     element.style.display = "none";
     var element = document.getElementById("languages");
     element.style.display = "none";
