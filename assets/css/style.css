@@ -216,6 +216,26 @@ body{
 }
 
 
+#rodape{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    font-family: var(--font-alternative);
+    background-color: #ff800081;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    position: fixed;
+}
+
+#rodape-link{
+    text-decoration: none;
+    font-family: var(--font-alternative);
+    color: #ffffffcb;
+}
+
 
 
 
