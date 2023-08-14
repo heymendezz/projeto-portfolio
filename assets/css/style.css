@@ -33,11 +33,8 @@ body{
     display: none;
 }
 
-#menu-title{
-    font-size: 45px;
-    font-family: var(--font);
-    margin-right: 40%;
-    font-weight: 500;
+.menu_logo{
+    margin-right: 600px;
 }
 
 .menu-button{
