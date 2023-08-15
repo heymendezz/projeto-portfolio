@@ -29,10 +29,6 @@ body{
     text-transform: uppercase;
 }
 
-#menu-hamburguer{
-    display: none;
-}
-
 .menu_logo{
     margin-right: 600px;
 }
@@ -62,14 +58,6 @@ body{
     border-width: 1px;
 }
 
-#menu-mobile{
-    display: none;
-}
-
-.menu-button-mobile{
-    display: none;
-}
-
 #about{
     margin-top: 80px;
     display: flex;
@@ -82,13 +70,6 @@ body{
     font-family: var(--font-alternative);
     font-weight: 800;
     font-size: 40px;
-    text-transform: uppercase;
-}
-
-.title-alternative{
-    font-family: var(--font-alternative);
-    font-weight: 300;
-    font-size: 35px;
     text-transform: uppercase;
 }
 
@@ -175,6 +156,7 @@ body{
     flex-direction: column;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 60px;
 }
 
 #experience-list{
@@ -229,4 +211,59 @@ body{
     text-decoration: none;
     font-family: var(--font-alternative);
     color: #ffffffcb;
+}
+
+@media (max-width: 800px){
+
+    #container {
+        width: 95%;
+    }
+
+    #menu{
+        align-items: center
+    }
+    .menu_logo{
+        margin-right: 15px;
+        width: 30%;
+    }
+    
+    .menu-button{
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    #about{
+        flex-direction: column-reverse;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .text{
+        width: 90%;
+    }
+
+    #profile-avatar{
+        width: 70%;
+        border-radius: 10px;
+        margin-bottom: 35px;
+    }
+
+    .project-img{
+        width: 300px;
+    }
+
+    #experience{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 90px;
+    }
+
+    .experience-card{
+        width: 140px;
+        border-radius: 0px;
+        padding: 5px;
+        margin: 15px;
+    }
 }
